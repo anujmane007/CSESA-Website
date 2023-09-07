@@ -1,6 +1,6 @@
 export const contactsData = {
-    email: 'csesa@gmail.com',
-    phone: '+91 7499978854',
+    email: 'csesaofficial@gmail.com',
+    phone: '+91 7775079182',
     address: 'Karmaveer Bhaurao Patil College of Engineering, Satara. Camp Area, Sadar Bazar, Satara Dist. Satara, Maharashtra, India',
 
     sheetAPI: ''
