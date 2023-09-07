@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types'; // Import PropTypes
 
 function ScrollToTop({ history }) {
   useEffect(() => {
@@ -9,9 +10,14 @@ function ScrollToTop({ history }) {
     return () => {
       unlisten();
     }
-  });
+  }, [history]); // Make sure to add 'history' as a dependency in useEffect
 
   return (null);
 }
+
+// Add prop type validation for 'history'
+ScrollToTop.propTypes = {
+  history: PropTypes.object.isRequired,
+};
 
 export default withRouter(ScrollToTop);
