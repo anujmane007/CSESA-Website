@@ -5,16 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ThemeContextProvider from './contexts/ThemeContext'
 
-
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-ReactDOM.render(
+const rootElement = document.getElementById('root');
+const root = ReactDOM.createRoot(rootElement);
+
+root.render(
+  <React.StrictMode>
     <ThemeContextProvider>
       <App />
-    </ThemeContextProvider>,
-  document.getElementById('root')
+    </ThemeContextProvider>
+  </React.StrictMode>
 );
-
 
 reportWebVitals();
