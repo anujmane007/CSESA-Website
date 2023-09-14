@@ -58,21 +58,21 @@ export const servicesData = [
     //     title: 'Data Entry', 
     //     icon: <BsClipboardData />
     // },
-    {
-        id: 11,
-        title: 'Updating Soon..',
-        icon: <FaTabletAlt />
-    },
+    // {
+    //     id: 11,
+    //     title: 'Updating Soon..',
+    //     icon: <FaTabletAlt />
+    // },
     // {
     //     id: 12,
     //     title: 'Audio Transcription',
     //     icon: <AiFillAudio />
     // },
-    {
-        id: 13,
-        title: 'Updating Soon..',
-        icon: <FaRegNewspaper />
-    },
+    // {
+    //     id: 13,
+    //     title: 'Updating Soon..',
+    //     icon: <FaRegNewspaper />
+    // },
 
 ]
 

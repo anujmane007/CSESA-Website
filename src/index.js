@@ -1,22 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ThemeContextProvider from './contexts/ThemeContext'
+import ThemeContextProvider from './contexts/ThemeContext';
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-const rootElement = document.getElementById('root');
-const root = ReactDOM.createRoot(rootElement);
+const root = document.getElementById('root');
+const reactRoot = createRoot(root);
 
-root.render(
-  <React.StrictMode>
-    <ThemeContextProvider>
-      <App />
-    </ThemeContextProvider>
-  </React.StrictMode>
+reactRoot.render(
+  <ThemeContextProvider>
+    <App />
+  </ThemeContextProvider>
 );
 
 reportWebVitals();

@@ -22,7 +22,7 @@
     font-family: 'BestermindRegular';
     color: var(--primary-2);
     font-size: 2.5rem;
-    user-select: none;
+    user-select: none; 
 }
 
 .navLink--container {
@@ -30,7 +30,7 @@
 }
 
 .drawer > .MuiBackdrop-root {
-    background: rgba(33, 33, 33, 0.15) !important;
+    background: rgba(167, 88, 88, 0.15) !important;
     backdrop-filter: blur(20px) !important;
 }
 
