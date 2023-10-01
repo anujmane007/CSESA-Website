@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@material-ui/core';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { makeStyles } from '@material-ui/core/styles';
@@ -165,16 +166,11 @@ function Landing() {
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
-                                <a
-                                    // href={headerData.resumePdf}
-                                    download='resume'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
+                                <Link to="/fund">
                                     <Button className={classes.resumeBtn}>
                                         Fund Info
                                     </Button>
-                                </a>
+                                </Link>
                             )}
                             <NavLink
                                 to='/#contacts'

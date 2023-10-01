@@ -3,12 +3,13 @@ import girl1 from '../assets/svg/testimonials/girl1.svg'
 import girl2 from '../assets/svg/testimonials/girl2.svg'
 import girl3 from '../assets/svg/testimonials/girl3.svg'
 import boy1 from '../assets/svg/testimonials/boy1.svg'
-import boy2 from '../assets/svg/testimonials/boy2.svg'
+import barge from '../assets/png/Snehal_Barge_Cultural.png'
 import boy3 from '../assets/svg/testimonials/boy3.svg'
 import anuj from '../assets/png/Anuj_Mane_Technical_Secretary.jpeg'
 import ritesh from '../assets/png/Rithesh_Mane_President.jpg'
 import avinash from '../assets/png/Avinash_Naik_Vice_President.jpg'
 import sanika from '../assets/png/Sanika_Prabhune_Cultural.jpg'
+import krushika from '../assets/png/Kushika_Jagdale_Cultural.jpg'
 import shreya from '../assets/png/Shreya_Swami_Digital.jpg'
 import akansha from '../assets/png/Akansha_Koli_Digital.jpg'
 import pratham from '../assets/png/Pratham_Malvade_Social.jpg'
@@ -44,7 +45,7 @@ export const testimonialsData = [
         name: 'Snehal Barge',
         title: 'Cultural Secretary',
         text: "Promoting and preserving our organization's cultural heritage.",
-        image: boy1
+        image: barge
     },
     {
         id: 5,
@@ -58,7 +59,7 @@ export const testimonialsData = [
         name: 'Krushika Jagadale',
         title: 'Cultural Secretary',
         text: "Fostering cultural appreciation and unity within the organization.",
-        image: boy3
+        image: krushika
     },
     {
         id: 7,

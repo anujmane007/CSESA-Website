@@ -1,3 +1,5 @@
 export { default as Main } from './Main/Main'
+export { default as EventTable } from './Funds/Funds'
 export { default as BlogPage } from './Blog/BlogPage'
+export { default as ResultPage } from './Result/ResultPage' 
 export { default as ProjectPage } from './Project/ProjectPage'

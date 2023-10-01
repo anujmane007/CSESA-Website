@@ -1,23 +1,22 @@
-import teacher_day from '../assets/Past_Events/Teachers Day Poster.jpg'
+import test1 from '../assets/Result/Gate_1_Poster.png'
 import update from '../assets/Past_Events/Update_soon.png'
-import inaguration from '../assets/Past_Events/CSE Inaguration.JPG'
 // 400 * 284
-export const blogData = [
+export const resultData = [
     {
         id: 1,
-        title: 'GRATITUDE FOR TEACHING STARS',
-        description: 'A special event on the occasion of Teachers Day...',
-        date: 'Sep 5, 2023',
-        image: teacher_day,
-        url: 'https://www.youtube.com/watch?v=YQgptGpiB5M'
+        title: 'GATE TEST 1 RESULT ORGANIZED BY CSESA ',
+        description: 'Click on this card.....',
+        date: 'Sep 30, 2023',
+        image: test1,
+        url: 'https://drive.google.com/file/d/1iEPSjwBWqPanyz399jDC0jQj7byvo3A-/view?usp=sharing'
     },
     {
         id: 2,
-        title: 'CSE Department Inaguaration',
-        description: 'A Special event on the occasion of Dept Inaguration..',
-        date: 'Sep 10, 2023',    
-        image: inaguration,
-        url: 'https://www.youtube.com/watch?v=axTHzAHKie4'
+        title: 'Updating Soon..',
+        description: 'Updating Soon..',
+        date: 'Updating Soon..',    
+        image: update,
+        url: ''
     },
     {
         id: 3,
