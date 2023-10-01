@@ -1,7 +1,7 @@
 import React from 'react';
 import './Funds.css'; // Import the CSS file
-import TDay from '../../assets/Bills/Teachers Day.jpeg'
-import CIna from '../../assets/Bills/CSE Inaguration.jpeg'
+// import TDay from '../../assets/Bills/Teachers Day.jpeg'
+// import CIna from '../../assets/Bills/CSE Inaguration.jpeg'
 
 
 class EventTable extends React.Component {
@@ -14,13 +14,13 @@ class EventTable extends React.Component {
           id: 1,
           eventName: 'Teachers Day',
           totalSpendAmount: 3000,
-          billLink: TDay, // Link for the first event
+          billLink: 'https://drive.google.com/file/d/1vh_m9unjFCAJo-aKoZ8xp6fLvm1c3gXt/view?usp=sharing', // Link for the first event
         },
         {
           id: 2,
           eventName: 'CSE DEPT Inaguration',
           totalSpendAmount: 3122,
-          billLink: CIna, // Link for the second event
+          billLink:'https://drive.google.com/file/d/1G5DoBE1m0j35Zs2KLrzEGacvBJV4CbLH/view?usp=sharing', // Link for the second event
         },
         {
           id: 3,

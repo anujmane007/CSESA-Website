@@ -44,7 +44,7 @@ function Result() {
             {resultData.length > 0 && (
                 <div className="blog" id="blog" style={{backgroundColor: theme.secondary}}>
                     <div className="blog--header">
-                        <h1 style={{color: theme.primary}}>Gate Test Results</h1>
+                        <h1 style={{color: theme.primary}}>Results</h1>
                     </div>
                     <div className="blog--body">
                         <div className="blog--bodyContainer">

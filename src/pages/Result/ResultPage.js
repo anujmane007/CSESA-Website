@@ -71,17 +71,17 @@ function ResultPage() {
     return (
         <div className="blogPage" style={{backgroundColor: theme.secondary}}>
             <Helmet>
-                <title>{headerData.name} | GATE Test Results</title>
+                <title>{headerData.name} | Test Results</title>
             </Helmet>
             <div className="blogPage--header" style={{backgroundColor: theme.primary}}>
                 <Link to="/">
                     <AiOutlineHome className={classes.home}/>
                 </Link>
-                <h1 style={{color: theme.secondary}}>GATE Test Results</h1>
+                <h1 style={{color: theme.secondary}}>Test Results</h1>
             </div>
             <div className="blogPage--container">
                 <div className="blog--search">
-                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach Events..." className={classes.search}/>
+                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach Results..." className={classes.search}/>
                 </div>
                 <div className="blogs--container">
                     <Grid className="blog-grid" container direction="row" alignItems="center" justifyContent="center">
