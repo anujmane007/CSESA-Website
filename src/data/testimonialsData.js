@@ -94,7 +94,7 @@ export const testimonialsData = [
         name: 'Aarya Gharge',
         title: 'Sport Secretary',
         text: "Promoting and coordinating sporting activities for the organization.",
-        image: boy3
+        image: girl1
     },
     {
         id: 12,

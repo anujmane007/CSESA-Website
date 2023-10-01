@@ -8,7 +8,7 @@ export const resultData = [
         description: 'Click on this card.....',
         date: 'Sep 30, 2023',
         image: test1,
-        url: 'https://drive.google.com/file/d/1iEPSjwBWqPanyz399jDC0jQj7byvo3A-/view?usp=sharing'
+        url: 'https://drive.google.com/file/d/1mcrQSnNgtdf9-8iJzbEi_JDQHyUvMCYj/view?usp=drive_link'
     },
     {
         id: 2,
