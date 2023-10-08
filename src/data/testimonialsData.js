@@ -1,5 +1,5 @@
 /* eslint-disable */
-import girl1 from '../assets/svg/testimonials/girl1.svg'
+import pranali from '../assets/png/Pranali_Khirsagar_LR.jpg'
 import girl2 from '../assets/svg/testimonials/girl2.svg'
 import girl3 from '../assets/svg/testimonials/girl3.svg'
 import boy1 from '../assets/svg/testimonials/boy1.svg'
@@ -38,7 +38,7 @@ export const testimonialsData = [
         name: 'Pranali Kshirsagar',
         title: 'Ladies Representative',
         text: "A dedicated advocate for women's voices and concerns.",
-        image: girl1
+        image: pranali
     },
     {
         id: 4,
@@ -94,7 +94,7 @@ export const testimonialsData = [
         name: 'Aarya Gharge',
         title: 'Sport Secretary',
         text: "Promoting and coordinating sporting activities for the organization.",
-        image: girl1
+        image: girl2
     },
     {
         id: 12,

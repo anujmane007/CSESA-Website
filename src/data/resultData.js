@@ -1,4 +1,5 @@
 import test1 from '../assets/Result/Gate_1_Poster.png'
+import test2 from '../assets/Result/Gate Test 2.png'
 import update from '../assets/Past_Events/Update_soon.png'
 // 400 * 284
 export const resultData = [
@@ -12,11 +13,11 @@ export const resultData = [
     },
     {
         id: 2,
-        title: 'Updating Soon..',
-        description: 'Updating Soon..',
-        date: 'Updating Soon..',    
-        image: update,
-        url: ''
+        title: 'GATE TEST 2 RESULT ORGANIZED BY CSESA', 
+        description: 'Click on this card.....',
+        date: 'Oct 08,2023',    
+        image: test2,
+        url: 'https://drive.google.com/file/d/1wQFOA5n63MU2X4q8xIDCZzzMu0Q_PMMq/view?usp=sharing'
     },
     {
         id: 3,
