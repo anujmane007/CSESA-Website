@@ -22,7 +22,7 @@ export const resultData = [
     },
     {
         id: 3,
-        title: 'GATE TEST 2 RESULT ORGANIZED BY CSESA',
+        title: 'GATE TEST 3 RESULT ORGANIZED BY CSESA',
         description: 'Click on this card.....',
         date: 'Oct 14,2023',
         image: test3,
