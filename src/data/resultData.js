@@ -46,4 +46,12 @@ export const resultData = [
         image: test5,
         url: ''
     },
+    {
+        id: 6,
+        title: 'Updating Soon....',
+        description: 'Updating Soon....',
+        date: 'Updating Soon....',
+        image: update,
+        url: ''
+    },
 ]
