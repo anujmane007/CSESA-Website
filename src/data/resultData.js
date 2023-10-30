@@ -44,7 +44,7 @@ export const resultData = [
         description: 'Click on this card.....',
         date: 'Oct 29,2023',
         image: test5,
-        url: ''
+        url: 'https://drive.google.com/file/d/1O3-u7HUGrUwa5vP3RG-ZOBx-ND5Csuou/view?usp=sharing'
     },
     {
         id: 6,
