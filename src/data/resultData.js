@@ -3,6 +3,7 @@ import test2 from '../assets/Result/Gate Test 2.png'
 import test3 from '../assets/Result/Gate Test 3.png'
 import test4 from '../assets/Result/Gate Test 4.png'
 import test5 from '../assets/Result/test5.jpg'
+import test6 from '../assets/Result/Gate Test 6 Result.jpg'
 import update from '../assets/Past_Events/Update_soon.png'
 // 400 * 284
 export const resultData = [
@@ -48,6 +49,14 @@ export const resultData = [
     },
     {
         id: 6,
+        title: 'GATE TEST 6 RESULT ORGANIZED BY CSESA',
+        description: 'Click on this card.....',
+        date: 'Nov 10,2023',
+        image: test6,
+        url: 'https://drive.google.com/file/d/18GBashrmADKORSLBmhhxUVdtqZGZl93l/view?usp=sharing'
+    },
+    {
+        id: 7,
         title: 'Updating Soon....',
         description: 'Updating Soon....',
         date: 'Updating Soon....',
