@@ -88,6 +88,6 @@ export const resultData = [
         description: 'Click on this card.....',
         date: 'Dec 09, 2023',
         image: test10,
-        url: ''
+        url: 'https://docs.google.com/spreadsheets/d/1sPcCKIYJuZ69644v3SGFNbi_HUMQrUWz/edit?usp=sharing&ouid=104119545382317340925&rtpof=true&sd=true'
     }
 ]
