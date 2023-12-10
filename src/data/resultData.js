@@ -7,7 +7,7 @@ import test6 from '../assets/Result/Gate Test 6 Result.jpg'
 import test7 from '../assets/Result/Gate Tests 7.png'
 import test8 from '../assets/Result/Gate test 8.png'
 import test9 from '../assets/Result/Gate test 9 Img.png'
-import update from '../assets/Past_Events/Update_soon.png'
+import test10 from '../assets/Result/T10.jpg'
 // 400 * 284
 export const resultData = [
     {
@@ -84,10 +84,10 @@ export const resultData = [
     },
     {
         id: 10,
-        title: 'Updating Soon....',
-        description: 'Updating Soon....',
-        date: 'Updating Soon....',
-        image: update,
+        title: 'GATE TEST 10 RESULT ORGANIZED BY CSESA',
+        description: 'Click on this card.....',
+        date: 'Dec 09, 2023',
+        image: test10,
         url: ''
     }
 ]
